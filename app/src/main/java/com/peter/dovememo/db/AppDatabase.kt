@@ -27,7 +27,7 @@ abstract class AppDatabase : RoomDatabase(){
         }
 
     }
-    //memoDao를 가지고있는다.연결할수있도록
+    //memoDAO 를 가지고있는다.연결할수있도록
     abstract fun memoDao(): MemoDao
 
 }

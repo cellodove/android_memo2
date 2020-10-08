@@ -5,6 +5,7 @@ import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Update
 
+//다오빼먹었음
 @Dao
 interface BaseDao<T> {
     @Insert
@@ -15,5 +16,6 @@ interface BaseDao<T> {
 
     @Delete
     fun delete(t:T)
+
 
 }

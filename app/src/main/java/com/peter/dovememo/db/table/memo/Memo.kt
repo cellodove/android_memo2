@@ -21,5 +21,4 @@ data class Memo(
 
     @ColumnInfo(name = "image_url")
     val imageUrl: String = ""
-
 )
